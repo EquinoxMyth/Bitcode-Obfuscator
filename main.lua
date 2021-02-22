@@ -1,3 +1,4 @@
+
 --init--
 local player = game.Players.LocalPlayer
 local scriptowner = player.Name
@@ -16,7 +17,7 @@ print(w:GetChildren())
 ------
 
 
-
+--function
 local function obfuscate(text)
 msg = text
 local result = msg:gsub(".", function(incode) return "\\" .. incode:byte () end) or script .."\\\""
@@ -25,10 +26,15 @@ backend("Made By: "..scriptowner.." Id: "..scriptownerid)
 wait(0.1)
 backend("loadstring('"..result.."')(true)")
 end)
+-----------
+
+----Other Part
 
 obfuscate([[
 print("Hello World")
 ]])
+
+-------------
 
 
 
