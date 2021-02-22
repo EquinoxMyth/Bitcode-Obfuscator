@@ -5,6 +5,7 @@ local scriptowner = player.Name
 local scriptownerid = player.UserId
 local backend = print
 local obfuname = "BitCode"
+copytoclipboard = false; -- change this if you want it to copy to clipboard only works for executors 
 -----------------------------
 
 
@@ -24,7 +25,13 @@ local result = msg:gsub(".", function(incode) return "\\" .. incode:byte () end)
  backend('created with: ['..obfuname..']  Obfuscator')
 backend("Made By: "..scriptowner.." Id: "..scriptownerid)
 wait(0.1)
-backend("loadstring('"..result.."')(true)")
+if copytoclipboard = false then
+backend("loadstring('"..result.."')()")
+  else
+  if copytoclipboard = true then
+   setclipboard("loadstring('"..result.."')()")
+   end
+  end
 end)
 -----------
 
@@ -35,6 +42,11 @@ print("Hello World")
 ]])
 
 -------------
+
+
+--Example By Myth Dev#2
+--Myth Dev#1 Exploit Patcher
+--Myth Dev#3 Patch tester
 
 
 
