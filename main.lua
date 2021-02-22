@@ -46,9 +46,11 @@ print("Hello World")
 -------------
 
 
---Example By Myth Dev#2
---Myth Dev#1 Exploit Patcher
+--Example By Myth Dev#1
+--Myth Dev#2 Exploit Patcher
 --Myth Dev#3 Patch tester
+
+--All Of The Myth Team Are Exploit Patchers We Run Scripts To Test Our Patches.
 
 
 
