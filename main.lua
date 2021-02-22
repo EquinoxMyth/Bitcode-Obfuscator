@@ -50,7 +50,7 @@ print("Hello World")
 --Myth Dev#2 Exploit Patcher
 --Myth Dev#3 Patch tester
 
---All Of The Myth Team Are Exploit Patchers We Run Scripts To Test Our Patches.
+--All Of The Myth Team Are Exploit Patchers/ We Only Exploit To Test Our Patches.
 
 
 
