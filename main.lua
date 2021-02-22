@@ -26,10 +26,12 @@ local result = msg:gsub(".", function(incode) return "\\" .. incode:byte () end)
 backend("Made By: "..scriptowner.." Id: "..scriptownerid)
 wait(0.1)
 if copytoclipboard = false then
-backend("loadstring('"..result.."')()")
+backend"loadstring('"..result.."')()"
+  backend'Printed To Console'
   else
   if copytoclipboard = true then
    setclipboard("loadstring('"..result.."')()")
+     backend'Copied To Clipboard'
    end
   end
 end)
