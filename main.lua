@@ -4,7 +4,7 @@ local player = game.Players.LocalPlayer
 local scriptowner = player.Name
 local scriptownerid = player.UserId
 local backend = print
-local obfuname = "BitCode"
+local obfuname = "BiteCode"
 copytoclipboard = false; -- change this if you want it to copy to clipboard only works for executors 
 -----------------------------
 
