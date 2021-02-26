@@ -7,7 +7,7 @@ local backend = print
 local obfuname = "BiteCode";
 local owner = "Player1";
 local version =  "0.0.1";
-copytoclipboard = false; -- change this if you want it to copy to clipboard only works for executors / suggest using Synapse or Fluxus or Jellyfish or ScriptWare
+copytoclipboard = false; -- change this to true if you want it to copy to clipboard only works for executors / suggest using Synapse or Fluxus or Jellyfish or ScriptWare
 -----------------------------
 
 
