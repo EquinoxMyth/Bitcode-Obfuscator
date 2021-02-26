@@ -10,11 +10,7 @@ copytoclipboard = false; -- change this if you want it to copy to clipboard only
 
 
 --Main Part
-local script = [[
-local g = game
-local w = g.Workspace
-print(w:GetChildren())
-]]
+local util = {}
 ------
 
 
@@ -28,6 +24,7 @@ wait(0.1)
 if copytoclipboard = false then
 backend"loadstring('"..result.."')()"
   backend'Printed To Console'
+  util = result
   else
   if copytoclipboard = true then
    setclipboard("loadstring('"..result.."')()")
