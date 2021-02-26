@@ -24,8 +24,7 @@ local result = msg:gsub(".", function(incode) return "\\" .. incode:byte () end)
 backend("--Made By: "..owner.." Id:") -- add ..scriptowner or scriptownerid 
 --- Add a wait here if you want to.
 if copytoclipboard == false then
-backend("--loadstring("..result..")()")
-  backend'Printed To Console'
+backend("loadstring("..result..")()")
   util = result
   else
   if copytoclipboard == true then
