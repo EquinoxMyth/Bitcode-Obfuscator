@@ -3,6 +3,7 @@
 --local player = game.Players.LocalPlayer
 --local scriptowner = player.Name
 --local scriptownerid = player.UserId
+
 local backend = print
 local obfuname = "ByteCode";
 local owner = "Player1";
