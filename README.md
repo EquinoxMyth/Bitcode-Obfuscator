@@ -1,7 +1,7 @@
 # Bitcode-Obfuscator
 A basic  Bitcode Obfuscate  For Roblox
 
---Use in Roblox Studio Or Repl.io
+--Use in Roblox Studio Or Repl.it
 
 -- This Can Be Used For Obfuscating roblox code but its basic.
 
