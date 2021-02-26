@@ -20,16 +20,16 @@ local util = {}
 local function obfuscate(text)
 msg = text
 local result = msg:gsub(".", function(incode) return "\\" .. incode:byte () end) or script .."\\\""
- backend('Created with: ['..obfuname..']  Obfuscator', 'Version: '..version)
-backend("Made By: "..owner.." Id:") -- add ..scriptowner or scriptownerid 
+ backend('--Created with: ['..obfuname..']  Obfuscator', 'Version: '..version)
+backend("--Made By: "..owner.." Id:") -- add ..scriptowner or scriptownerid 
 --- Add a wait here if you want to.
 if copytoclipboard == false then
-backend("loadstring("..result..")()")
+backend("--loadstring("..result..")()")
   backend'Printed To Console'
   util = result
   else
   if copytoclipboard == true then
-   setclipboard("loadstring("..result..")()")
+   setclipboard("--loadstring("..result..")()")
      backend'Copied To Clipboard'
    end
   end
